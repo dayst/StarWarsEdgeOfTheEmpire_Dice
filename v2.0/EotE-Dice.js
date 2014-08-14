@@ -1062,7 +1062,7 @@ function processEdgeEmpireDiceScript(diceToRoll, who, label){
 
 	diceTextResults = diceTextResults + "]";
 	
-	
+	///STARTING POINT
 		
 	if (eedGlobal.diceTestEnabled === true) {
 		sendChat("", "/desc " + who + ": 6b 8g 12y 6blk 8p 12r 12w");

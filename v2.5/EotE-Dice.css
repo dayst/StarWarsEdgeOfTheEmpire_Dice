@@ -670,7 +670,9 @@ label.sheet-label-current {
 
 
 [name="attr_critAddRangeNum"],
-[name="attr_critShipAddRangeNum"]{
+[name="attr_critShipAddRangeNum"],
+[name="attr_critAddOffset"],
+[name="attr_critShipAddOffset"]{
     background:#ccc;
 }
 

@@ -986,9 +986,11 @@ th .sheet-help-content {
     display:block;
 }
 
-.sheet-weapons [type=number] {
+.sheet-weapons [type=text] {
     font-size:14px;
     font-weight:bold;
+    width:50px;
+    text-align:center
 }
 
 .sheet-weapons [type=roll] {

@@ -250,7 +250,9 @@ input.sheet-tab-talents:checked ~ div.sheet-tab-talents,
 input.sheet-tab-weapons:checked ~ div.sheet-tab-weapons,
 input.sheet-tab-v-details:checked ~ div.sheet-tab-v-details,
 input.sheet-tab-v-weapons:checked ~ div.sheet-tab-v-weapons,
-input.sheet-tab-notes:checked ~ div.sheet-tab-notes {
+input.sheet-tab-notes:checked ~ div.sheet-tab-notes,
+input.sheet-tab-gm-weapons:checked ~ div.sheet-tab-gm-weapons, 
+input.sheet-tab-gm-adversaries:checked ~ div.sheet-tab-gm-adversaries {
     display: block;
 }
 
@@ -393,6 +395,12 @@ input.sheet-tab-ship-sheet::before {display:none}
     padding:0;
     margin:0;
     text-align:center;
+    color:#fff;
+}
+
+.charsheet .sheet-sub-header,
+.charsheet .sheet-sub-header:hover{
+    background:#485a6d;
     color:#fff;
 }
 

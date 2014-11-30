@@ -1068,7 +1068,7 @@ var eoteweapon = {}
                     }
                 ], 
             },
-    		'Armor-Piercing Grenade' : { 
+    		'Armor-Piercing Grenade' : { //AoR
                 attributes : [
                     {
                         name : 'weaponmake',
@@ -1178,7 +1178,7 @@ var eoteweapon = {}
                     }
                 ], 
             },
-			'Anti-Vehicle Mine' : { 
+			'Anti-Vehicle Mine' : { //AoR
                 attributes : [
                     {
                         name : 'weaponmake',
@@ -1233,7 +1233,7 @@ var eoteweapon = {}
                     }
                 ], 
             },
-			'Anti-Personal Mine' : { 
+			'Anti-Personal Mine' : { //AoR
                 attributes : [
                     {
                         name : 'weaponmake',
@@ -1838,7 +1838,8 @@ var eoteweapon = {}
                     }
                 ], 
             },
-			'12 Defender': { 
+			//Far Horizons
+            '12 Defender': { 
                 attributes : [
                     {
                         name : 'weaponmake',

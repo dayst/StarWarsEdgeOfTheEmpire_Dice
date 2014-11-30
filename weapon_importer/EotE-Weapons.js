@@ -2504,7 +2504,11 @@ var eoteweapon = {}
         var characterMatch = cmd.match(eoteweapon.defaults.regex.character);
         
         if (characterMatch) {
-            eoteweapon.process.findCharacter(characterMatch, weaponObj);
+            var charFound = eoteweapon.process.findCharacter(characterMatch, weaponObj);
+            
+            if (!charFound) {
+                return false;
+            }
         }
         
         
@@ -2526,7 +2530,7 @@ var eoteweapon = {}
         
         var characterMatch = cmd[1];
         
-        if (characterMatch) {
+        if (characterMatch && characterMatch != undefined) {
             
             var charObj = findObjs({ _type: "character", name: characterMatch });
             
@@ -2534,7 +2538,8 @@ var eoteweapon = {}
             
                 weaponObj.vars.characterName = charObj[0].get('name');
                 weaponObj.vars.characterID = charObj[0].id;
-
+                return true;
+                
             } else {
                 sendChat("Alert", "Can't find character. Please update character name field to match sheet character name and try again.");
                 return false;
@@ -2543,8 +2548,6 @@ var eoteweapon = {}
             sendChat("Alert", "Please update character name field.");
             return false;
         }
-        
-        return true;
         
     }
 

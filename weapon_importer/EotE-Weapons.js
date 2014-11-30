@@ -2503,18 +2503,18 @@ var eoteweapon = {}
         //Match Character
         var characterMatch = cmd.match(eoteweapon.defaults.regex.character);
         
-            if (characterMatch) {
-                eoteweapon.process.findCharacter(characterMatch, weaponObj);
-            }
+        if (characterMatch) {
+            eoteweapon.process.findCharacter(characterMatch, weaponObj);
+        }
         
         
         //Match Weapon
-         var weaponMatch = cmd.match(eoteweapon.defaults.regex.weapon);
+        var weaponMatch = cmd.match(eoteweapon.defaults.regex.weapon);
         
-            if (weaponMatch) {
-                eoteweapon.process.addWeapon(weaponMatch, weaponObj);
-            }
-        
+        if (weaponMatch) {
+            eoteweapon.process.addWeapon(weaponMatch, weaponObj);
+        }
+    
         
     }
 
@@ -2568,7 +2568,7 @@ var eoteweapon = {}
                     return (a.get('name') === 'repeating_weapons_'+i+'_damage');
                 });
                 
-                if (slot == '0' ||  slot == '' ||  slot == undefined) {
+                if (slot == undefined) {
                     openSlot = i;
                     break;
                 } else {

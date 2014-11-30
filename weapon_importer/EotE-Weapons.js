@@ -23,11 +23,11 @@ var eoteweapon = {}
             character : /character\((.*?)\)/,
         },
         'import' : {
-            'Holdout Blaster' : { 
+            'Holdout Pistol' : { 
                 attributes : [
                     {
                         name : 'weaponmake',
-                        current : 'Holdout Blaster'
+                        current : 'Holdout Pistol'
                     }, 
                     {
                         name : 'weapontype',
@@ -1068,7 +1068,7 @@ var eoteweapon = {}
                     }
                 ], 
             },
-			'Armor-Piercing Grenade' : { 
+    		'Armor-Piercing Grenade' : { 
                 attributes : [
                     {
                         name : 'weaponmake',
@@ -2590,6 +2590,8 @@ var eoteweapon = {}
                 });
                 
             });
+            
+             sendChat("Weapon", weaponMatch);
             
             return true;
             

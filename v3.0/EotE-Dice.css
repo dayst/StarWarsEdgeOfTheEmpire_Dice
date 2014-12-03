@@ -231,8 +231,6 @@ input.sheet-op:focus {
 }
 
 
-
-
 /* Tabs
  * ------------------------------------ */
 
@@ -257,6 +255,8 @@ input.sheet-tab-gm-weapons:checked ~ div.sheet-tab-gm-weapons,
 input.sheet-tab-gm-adversaries:checked ~ div.sheet-tab-gm-adversaries {
     display: block;
 }
+
+
 
 input.sheet-tab {
     width: 162px;
@@ -307,27 +307,6 @@ input.sheet-tab:checked:hover::before {
 input.sheet-tab-ship-sheet,
 input.sheet-tab-ship-sheet::before {display:none}
 */
-
-/* Custom Show Hide
- * ------------------------------------ */
-input.sheet-player-sheet,
-input.sheet-gm-sheet {
-    display: none; 
-}
-
-input.sheet-player:checked ~ input.sheet-player-sheet,
-input.sheet-gm:checked ~ input.sheet-gm-sheet{
-    display: inline-block;  
-}
- 
-input.sheet-gm:checked ~ div.sheet-tab-content {
-    display: none;  
-}
- 
-input.sheet-gm:checked ~ div.sheet-tab-gm-dice {
-    display: block;  
-}
-
 
 /* ------------------------------------ */
 

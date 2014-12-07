@@ -1195,6 +1195,8 @@
             var diceRoll = '';
             var critMod = '';
     		var rollTotal = '';
+            var rollOffset = parseInt(getAttrByName(diceObj.vars.characterID, 'critAddOffset'));
+                rollOffset = rollOffset ? rollOffset : 0;
             var totalcrits = 0;
             
             //check open critical spot
@@ -1218,7 +1220,7 @@
     		if (!addCritNum) {
     			diceRoll = randomInteger(100);
     			critMod = (totalcrits * 10);
-    			rollTotal = diceRoll + critMod;
+    			rollTotal = diceRoll + critMod + rollOffset;
     		} else {
     			rollTotal = parseInt(addCritNum);
     		}
@@ -1270,6 +1272,9 @@
                     var chat = '/direct <br><b>Rolls Critical Injury</b><br>';
                         chat = chat + '<img src="http://i.imgur.com/z51hRwd.png" /><br/>'
                         chat = chat + 'Current Criticals: (' + totalcrits + ' x 10)<br>';
+                        if (rollOffset) {
+                            chat = chat + 'Dice Roll Offset: ' + rollOffset + '<br>';
+                        }
                         chat = chat + 'Dice Roll: ' + diceRoll + '<br>';
                         chat = chat + 'Total: ' + rollTotal + '<br>';
                         chat = chat + '<br>';
@@ -1491,6 +1496,8 @@
             var diceRoll = '';
             var critMod = '';
         	var rollTotal = '';
+            var rollOffset = parseInt(getAttrByName(diceObj.vars.characterID, 'critShipAddOffset'));
+                rollOffset = rollOffset ? rollOffset : 0;
             var totalcrits = 0;
             
             //check open critical spot
@@ -1514,7 +1521,7 @@
     		if (!addCritNum) {
     			diceRoll = randomInteger(100);
     			critMod = (totalcrits * 10);
-    			rollTotal = diceRoll + critMod;
+    			rollTotal = diceRoll + critMod + rollOffset;
     		} else {
     			rollTotal = parseInt(addCritNum);
     		}
@@ -1566,6 +1573,9 @@
                     var chat = '/direct <br><b>Rolls Vehicle Critical</b><br>';
                         chat = chat + '<img src="http://i.imgur.com/JO3pOr8.png" /><br>';//need new graphic
                         chat = chat + 'Current Criticals: (' + totalcrits + ' x 10)<br>';
+                        if (rollOffset) {
+                            chat = chat + 'Dice Roll Offset: ' + rollOffset + '<br>';
+                        }
                         chat = chat + 'Dice Roll: ' + diceRoll + '<br>';
                         chat = chat + 'Total: ' + rollTotal + '<br>';
                         chat = chat + '<br>';

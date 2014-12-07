@@ -407,7 +407,7 @@ input.sheet-gm:checked ~ div.sheet-tab-gm-dice {
 .sheet-bg-blue label {color:#fff}
 
 .sheet-bg-blue td,
-.sheet-bg-blue td:hover, 
+.sheet-bg-blue:hover td, 
 .charsheet .sheet-sub-header,
 .charsheet .sheet-sub-header:hover{
     background:#485a6d;

@@ -2623,4 +2623,886 @@ var eoteweapon = {}
                 }
             ], 
         },
+        //Dangerous Covenants
+        'Model 44 Blaster Pistol': { 
+            attributes : [
+                {
+                    name : 'weaponmake',
+                    current : 'Model 44 Blaster Pistol'
+                }, 
+                {
+                    name : 'weapontype',
+                    current : 'Energy Weapon'
+                },
+                {
+                    name : 'weaponskill',
+                    current : 'skill(@{rankLight}|@{agility})'
+                    /*
+                        skill(@{rankBrawl}|@{brawn})
+                        skill(@{rankGunnery}|@{agility})
+                        skill(@{rankMelee}|@{brawn})
+                        skill(@{rankLight}|@{agility})
+                        skill(@{rankHeavy}|@{agility})
+                    */
+                },
+                {
+                    name : 'damage',
+                    current : 6
+                },
+                {
+                    name : 'critical',
+                    current : 3
+                },
+                {
+                    name : 'weaponrange',
+                    current : 'Medium' //Engaged Short Medium Long Extreme
+                },
+                {
+                    name : 'encum',
+                    current : 1
+                },
+                {
+                    name : 'hp',
+                    current : 4
+                },
+                {
+                    name : 'weaponspecial',
+                    current : 'Stun Setting'
+                },
+                {
+                    name : 'weaponcondition',
+                    current : ''
+                },
+                {
+                    name : 'weapondice',
+                    current : ''
+                }
+            ], 
+        },
+        'Model 80 Blaster Pistol': { 
+            attributes : [
+                {
+                    name : 'weaponmake',
+                    current : 'Model 80 Blaster Pistol'
+                }, 
+                {
+                    name : 'weapontype',
+                    current : 'Energy Weapon'
+                },
+                {
+                    name : 'weaponskill',
+                    current : 'skill(@{rankLight}|@{agility})'
+                    /*
+                        skill(@{rankBrawl}|@{brawn})
+                        skill(@{rankGunnery}|@{agility})
+                        skill(@{rankMelee}|@{brawn})
+                        skill(@{rankLight}|@{agility})
+                        skill(@{rankHeavy}|@{agility})
+                    */
+                },
+                {
+                    name : 'damage',
+                    current : 6
+                },
+                {
+                    name : 'critical',
+                    current : 2
+                },
+                {
+                    name : 'weaponrange',
+                    current : 'Medium' //Engaged Short Medium Long Extreme
+                },
+                {
+                    name : 'encum',
+                    current : 2
+                },
+                {
+                    name : 'hp',
+                    current : 3
+                },
+                {
+                    name : 'weaponspecial',
+                    current : 'Stun Setting'
+                },
+                {
+                    name : 'weaponcondition',
+                    current : ''
+                },
+                {
+                    name : 'weapondice',
+                    current : ''
+                }
+            ], 
+        },
+        'IR-5 Blaster Pistol': { 
+            attributes : [
+                {
+                    name : 'weaponmake',
+                    current : 'IR-5 Blaster Pistol'
+                }, 
+                {
+                    name : 'weapontype',
+                    current : 'Energy Weapon'
+                },
+                {
+                    name : 'weaponskill',
+                    current : 'skill(@{rankLight}|@{agility})'
+                    /*
+                        skill(@{rankBrawl}|@{brawn})
+                        skill(@{rankGunnery}|@{agility})
+                        skill(@{rankMelee}|@{brawn})
+                        skill(@{rankLight}|@{agility})
+                        skill(@{rankHeavy}|@{agility})
+                    */
+                },
+                {
+                    name : 'damage',
+                    current : 5
+                },
+                {
+                    name : 'critical',
+                    current : 3
+                },
+                {
+                    name : 'weaponrange',
+                    current : 'Medium' //Engaged Short Medium Long Extreme
+                },
+                {
+                    name : 'encum',
+                    current : 2
+                },
+                {
+                    name : 'hp',
+                    current : 2
+                },
+                {
+                    name : 'weaponspecial',
+                    current : 'Auto-fire, Inaccurate 1'
+                },
+                {
+                    name : 'weaponcondition',
+                    current : ''
+                },
+                {
+                    name : 'weapondice',
+                    current : ''
+                }
+            ], 
+        },
+        'DL-74 Heavy Blaster Pistol': { 
+            attributes : [
+                {
+                    name : 'weaponmake',
+                    current : 'DL-74 Heavy Blaster Pistol'
+                }, 
+                {
+                    name : 'weapontype',
+                    current : 'Energy Weapon'
+                },
+                {
+                    name : 'weaponskill',
+                    current : 'skill(@{rankLight}|@{agility})'
+                    /*
+                        skill(@{rankBrawl}|@{brawn})
+                        skill(@{rankGunnery}|@{agility})
+                        skill(@{rankMelee}|@{brawn})
+                        skill(@{rankLight}|@{agility})
+                        skill(@{rankHeavy}|@{agility})
+                    */
+                },
+                {
+                    name : 'damage',
+                    current : 8
+                },
+                {
+                    name : 'critical',
+                    current : 3
+                },
+                {
+                    name : 'weaponrange',
+                    current : 'Medium' //Engaged Short Medium Long Extreme
+                },
+                {
+                    name : 'encum',
+                    current : 2
+                },
+                {
+                    name : 'hp',
+                    current : 2
+                },
+                {
+                    name : 'weaponspecial',
+                    current : ''
+                },
+                {
+                    name : 'weaponcondition',
+                    current : ''
+                },
+                {
+                    name : 'weapondice',
+                    current : ''
+                }
+            ], 
+        },
+        'ACP Array Gun': { 
+            attributes : [
+                {
+                    name : 'weaponmake',
+                    current : 'ACP Array Gun'
+                }, 
+                {
+                    name : 'weapontype',
+                    current : 'Energy Weapon'
+                },
+                {
+                    name : 'weaponskill',
+                    current : 'skill(@{rankHeavy}|@{agility})'
+                    /*
+                        skill(@{rankBrawl}|@{brawn})
+                        skill(@{rankGunnery}|@{agility})
+                        skill(@{rankMelee}|@{brawn})
+                        skill(@{rankLight}|@{agility})
+                        skill(@{rankHeavy}|@{agility})
+                    */
+                },
+                {
+                    name : 'damage',
+                    current : 6
+                },
+                {
+                    name : 'critical',
+                    current : 3
+                },
+                {
+                    name : 'weaponrange',
+                    current : 'Short' //Engaged Short Medium Long Extreme
+                },
+                {
+                    name : 'encum',
+                    current : 3
+                },
+                {
+                    name : 'hp',
+                    current : 3
+                },
+                {
+                    name : 'weaponspecial',
+                    current : 'Blast 5, Stun Setting'
+                },
+                {
+                    name : 'weaponcondition',
+                    current : ''
+                },
+                {
+                    name : 'weapondice',
+                    current : ''
+                }
+            ], 
+        },
+        'DH-X Heavy Blaster Rifle': { 
+            attributes : [
+                {
+                    name : 'weaponmake',
+                    current : 'DH-X Heavy Blaster Rifle'
+                }, 
+                {
+                    name : 'weapontype',
+                    current : 'Energy Weapon'
+                },
+                {
+                    name : 'weaponskill',
+                    current : 'skill(@{rankHeavy}|@{agility})'
+                    /*
+                        skill(@{rankBrawl}|@{brawn})
+                        skill(@{rankGunnery}|@{agility})
+                        skill(@{rankMelee}|@{brawn})
+                        skill(@{rankLight}|@{agility})
+                        skill(@{rankHeavy}|@{agility})
+                    */
+                },
+                {
+                    name : 'damage',
+                    current : 10
+                },
+                {
+                    name : 'critical',
+                    current : 3
+                },
+                {
+                    name : 'weaponrange',
+                    current : 'Long' //Engaged Short Medium Long Extreme
+                },
+                {
+                    name : 'encum',
+                    current : 7
+                },
+                {
+                    name : 'hp',
+                    current : 4
+                },
+                {
+                    name : 'weaponspecial',
+                    current : 'Cumbersome 3, Pierce 2'
+                },
+                {
+                    name : 'weaponcondition',
+                    current : ''
+                },
+                {
+                    name : 'weapondice',
+                    current : ''
+                }
+            ], 
+        },
+        'OK-98 Blaster Carbine': { 
+            attributes : [
+                {
+                    name : 'weaponmake',
+                    current : 'OK-98 Blaster Carbine'
+                }, 
+                {
+                    name : 'weapontype',
+                    current : 'Energy Weapon'
+                },
+                {
+                    name : 'weaponskill',
+                    current : 'skill(@{rankHeavy}|@{agility})'
+                    /*
+                        skill(@{rankBrawl}|@{brawn})
+                        skill(@{rankGunnery}|@{agility})
+                        skill(@{rankMelee}|@{brawn})
+                        skill(@{rankLight}|@{agility})
+                        skill(@{rankHeavy}|@{agility})
+                    */
+                },
+                {
+                    name : 'damage',
+                    current : 9
+                },
+                {
+                    name : 'critical',
+                    current : 3
+                },
+                {
+                    name : 'weaponrange',
+                    current : 'Medium' //Engaged Short Medium Long Extreme
+                },
+                {
+                    name : 'encum',
+                    current : 4
+                },
+                {
+                    name : 'hp',
+                    current : 3
+                },
+                {
+                    name : 'weaponspecial',
+                    current : 'Stun Setting'
+                },
+                {
+                    name : 'weaponcondition',
+                    current : ''
+                },
+                {
+                    name : 'weapondice',
+                    current : ''
+                }
+            ], 
+        },
+        'SE-14r Light Repeating Blaster': { 
+            attributes : [
+                {
+                    name : 'weaponmake',
+                    current : 'SE-14r Light Repeating Blaster'
+                }, 
+                {
+                    name : 'weapontype',
+                    current : 'Energy Weapon'
+                },
+                {
+                    name : 'weaponskill',
+                    current : 'skill(@{rankLight}|@{agility})'
+                    /*
+                        skill(@{rankBrawl}|@{brawn})
+                        skill(@{rankGunnery}|@{agility})
+                        skill(@{rankMelee}|@{brawn})
+                        skill(@{rankLight}|@{agility})
+                        skill(@{rankHeavy}|@{agility})
+                    */
+                },
+                {
+                    name : 'damage',
+                    current : 6
+                },
+                {
+                    name : 'critical',
+                    current : 3
+                },
+                {
+                    name : 'weaponrange',
+                    current : 'Medium' //Engaged Short Medium Long Extreme
+                },
+                {
+                    name : 'encum',
+                    current : 2
+                },
+                {
+                    name : 'hp',
+                    current : 3
+                },
+                {
+                    name : 'weaponspecial',
+                    current : 'Auto Fire, Stun Setting'
+                },
+                {
+                    name : 'weaponcondition',
+                    current : ''
+                },
+                {
+                    name : 'weapondice',
+                    current : ''
+                }
+            ], 
+        },
+        'VX Sidewinder Repeating Blaster': { 
+            attributes : [
+                {
+                    name : 'weaponmake',
+                    current : 'VX Sidewinder Repeating Blaster'
+                }, 
+                {
+                    name : 'weapontype',
+                    current : 'Energy Weapon'
+                },
+                {
+                    name : 'weaponskill',
+                    current : 'skill(@{rankGunnery}|@{agility})'
+                    /*
+                        skill(@{rankBrawl}|@{brawn})
+                        skill(@{rankGunnery}|@{agility})
+                        skill(@{rankMelee}|@{brawn})
+                        skill(@{rankLight}|@{agility})
+                        skill(@{rankHeavy}|@{agility})
+                    */
+                },
+                {
+                    name : 'damage',
+                    current : 12
+                },
+                {
+                    name : 'critical',
+                    current : 3
+                },
+                {
+                    name : 'weaponrange',
+                    current : 'Long' //Engaged Short Medium Long Extreme
+                },
+                {
+                    name : 'encum',
+                    current : 8
+                },
+                {
+                    name : 'hp',
+                    current : 4
+                },
+                {
+                    name : 'weaponspecial',
+                    current : 'Auto Fire, Cumbersome 5, Pierce 1, Vicious 1'
+                },
+                {
+                    name : 'weaponcondition',
+                    current : ''
+                },
+                {
+                    name : 'weapondice',
+                    current : ''
+                }
+            ], 
+        },
+        'HOB Heavy Repeating Blaster': { 
+            attributes : [
+                {
+                    name : 'weaponmake',
+                    current : 'HOB Heavy Repeating Blaster'
+                }, 
+                {
+                    name : 'weapontype',
+                    current : 'Energy Weapon'
+                },
+                {
+                    name : 'weaponskill',
+                    current : 'skill(@{rankGunnery}|@{agility})'
+                    /*
+                        skill(@{rankBrawl}|@{brawn})
+                        skill(@{rankGunnery}|@{agility})
+                        skill(@{rankMelee}|@{brawn})
+                        skill(@{rankLight}|@{agility})
+                        skill(@{rankHeavy}|@{agility})
+                    */
+                },
+                {
+                    name : 'damage',
+                    current : 15
+                },
+                {
+                    name : 'critical',
+                    current : 3
+                },
+                {
+                    name : 'weaponrange',
+                    current : 'Extreme' //Engaged Short Medium Long Extreme
+                },
+                {
+                    name : 'encum',
+                    current : 8
+                },
+                {
+                    name : 'hp',
+                    current : 4
+                },
+                {
+                    name : 'weaponspecial',
+                    current : 'Auto Fire, Cumbersome 6, Pierce 2, Vicious 1'
+                },
+                {
+                    name : 'weaponcondition',
+                    current : ''
+                },
+                {
+                    name : 'weapondice',
+                    current : ''
+                }
+            ], 
+        },
+        'Assault Carbine': { 
+            attributes : [
+                {
+                    name : 'weaponmake',
+                    current : 'Assault Carbine'
+                }, 
+                {
+                    name : 'weapontype',
+                    current : 'Slugthrower'
+                },
+                {
+                    name : 'weaponskill',
+                    current : 'skill(@{rankHeavy}|@{agility})'
+                    /*
+                        skill(@{rankBrawl}|@{brawn})
+                        skill(@{rankGunnery}|@{agility})
+                        skill(@{rankMelee}|@{brawn})
+                        skill(@{rankLight}|@{agility})
+                        skill(@{rankHeavy}|@{agility})
+                    */
+                },
+                {
+                    name : 'damage',
+                    current : 6
+                },
+                {
+                    name : 'critical',
+                    current : 5
+                },
+                {
+                    name : 'weaponrange',
+                    current : 'Short' //Engaged Short Medium Long Extreme
+                },
+                {
+                    name : 'encum',
+                    current : 4
+                },
+                {
+                    name : 'hp',
+                    current : 1
+                },
+                {
+                    name : 'weaponspecial',
+                    current : 'Auto Fire, Inaccurate 1'
+                },
+                {
+                    name : 'weaponcondition',
+                    current : ''
+                },
+                {
+                    name : 'weapondice',
+                    current : ''
+                }
+            ], 
+        },
+        'Fiver Pistol': { 
+            attributes : [
+                {
+                    name : 'weaponmake',
+                    current : 'Fiver Pistol'
+                }, 
+                {
+                    name : 'weapontype',
+                    current : 'Slugthrower'
+                },
+                {
+                    name : 'weaponskill',
+                    current : 'skill(@{rankLight}|@{agility})'
+                    /*
+                        skill(@{rankBrawl}|@{brawn})
+                        skill(@{rankGunnery}|@{agility})
+                        skill(@{rankMelee}|@{brawn})
+                        skill(@{rankLight}|@{agility})
+                        skill(@{rankHeavy}|@{agility})
+                    */
+                },
+                {
+                    name : 'damage',
+                    current : 5
+                },
+                {
+                    name : 'critical',
+                    current : 4
+                },
+                {
+                    name : 'weaponrange',
+                    current : 'Short' //Engaged Short Medium Long Extreme
+                },
+                {
+                    name : 'encum',
+                    current : 2
+                },
+                {
+                    name : 'hp',
+                    current : 1
+                },
+                {
+                    name : 'weaponspecial',
+                    current : 'Accurate 1, Limited Ammo 5'
+                },
+                {
+                    name : 'weaponcondition',
+                    current : ''
+                },
+                {
+                    name : 'weapondice',
+                    current : ''
+                }
+            ], 
+        },
+        'Flamestrike': { 
+            attributes : [
+                {
+                    name : 'weaponmake',
+                    current : 'Flamestrike'
+                }, 
+                {
+                    name : 'weapontype',
+                    current : 'Explosive'
+                },
+                {
+                    name : 'weaponskill',
+                    current : 'skill(@{rankGunnery}|@{agility})'
+                    /*
+                        skill(@{rankBrawl}|@{brawn})
+                        skill(@{rankGunnery}|@{agility})
+                        skill(@{rankMelee}|@{brawn})
+                        skill(@{rankLight}|@{agility})
+                        skill(@{rankHeavy}|@{agility})
+                    */
+                },
+                {
+                    name : 'damage',
+                    current : 9
+                },
+                {
+                    name : 'critical',
+                    current : 2
+                },
+                {
+                    name : 'weaponrange',
+                    current : 'Short' //Engaged Short Medium Long Extreme
+                },
+                {
+                    name : 'encum',
+                    current : 8
+                },
+                {
+                    name : 'hp',
+                    current : 3
+                },
+                {
+                    name : 'weaponspecial',
+                    current : 'Burn 4, Blast 9, Cumbersome 3, Vicious 2'
+                },
+                {
+                    name : 'weaponcondition',
+                    current : ''
+                },
+                {
+                    name : 'weapondice',
+                    current : ''
+                }
+            ], 
+        },
+        'Flechette Launcher (Anti-Infantry)': { 
+            attributes : [
+                {
+                    name : 'weaponmake',
+                    current : 'Flechette Launcher (Anti-Infantry)'
+                }, 
+                {
+                    name : 'weapontype',
+                    current : 'Explosive'
+                },
+                {
+                    name : 'weaponskill',
+                    current : 'skill(@{rankGunnery}|@{agility})'
+                    /*
+                        skill(@{rankBrawl}|@{brawn})
+                        skill(@{rankGunnery}|@{agility})
+                        skill(@{rankMelee}|@{brawn})
+                        skill(@{rankLight}|@{agility})
+                        skill(@{rankHeavy}|@{agility})
+                    */
+                },
+                {
+                    name : 'damage',
+                    current : 8
+                },
+                {
+                    name : 'critical',
+                    current : 3
+                },
+                {
+                    name : 'weaponrange',
+                    current : 'Medium' //Engaged Short Medium Long Extreme
+                },
+                {
+                    name : 'encum',
+                    current : 6
+                },
+                {
+                    name : 'hp',
+                    current : 4
+                },
+                {
+                    name : 'weaponspecial',
+                    current : 'Blast 8, Cumbersome 3, Limited Ammo 4, Pierce 6, Prepare 1, Vicious 1'
+                },
+                {
+                    name : 'weaponcondition',
+                    current : ''
+                },
+                {
+                    name : 'weapondice',
+                    current : ''
+                }
+            ], 
+        },
+        'Flechette Launcher (Anti-Vehicle)': { 
+            attributes : [
+                {
+                    name : 'weaponmake',
+                    current : 'Flechette Launcher (Anti-Vehicle)'
+                }, 
+                {
+                    name : 'weapontype',
+                    current : 'Explosive'
+                },
+                {
+                    name : 'weaponskill',
+                    current : 'skill(@{rankGunnery}|@{agility})'
+                    /*
+                        skill(@{rankBrawl}|@{brawn})
+                        skill(@{rankGunnery}|@{agility})
+                        skill(@{rankMelee}|@{brawn})
+                        skill(@{rankLight}|@{agility})
+                        skill(@{rankHeavy}|@{agility})
+                    */
+                },
+                {
+                    name : 'damage',
+                    current : 10
+                },
+                {
+                    name : 'critical',
+                    current : 2
+                },
+                {
+                    name : 'weaponrange',
+                    current : 'Medium' //Engaged Short Medium Long Extreme
+                },
+                {
+                    name : 'encum',
+                    current : 6
+                },
+                {
+                    name : 'hp',
+                    current : 4
+                },
+                {
+                    name : 'weaponspecial',
+                    current : 'Breach 2, Cumbersome 3, Limited Ammo 4, Prepare 1, Vicious 3'
+                },
+                {
+                    name : 'weaponcondition',
+                    current : ''
+                },
+                {
+                    name : 'weapondice',
+                    current : ''
+                }
+            ], 
+        },
+        'Grendae Launcher': { 
+            attributes : [
+                {
+                    name : 'weaponmake',
+                    current : 'Grendae Launcher'
+                }, 
+                {
+                    name : 'weapontype',
+                    current : 'Explosive'
+                },
+                {
+                    name : 'weaponskill',
+                    current : 'skill(@{rankGunnery}|@{agility})'
+                    /*
+                        skill(@{rankBrawl}|@{brawn})
+                        skill(@{rankGunnery}|@{agility})
+                        skill(@{rankMelee}|@{brawn})
+                        skill(@{rankLight}|@{agility})
+                        skill(@{rankHeavy}|@{agility})
+                    */
+                },
+                {
+                    name : 'damage',
+                    current : 8
+                },
+                {
+                    name : 'critical',
+                    current : 4
+                },
+                {
+                    name : 'weaponrange',
+                    current : 'Medium' //Engaged Short Medium Long Extreme
+                },
+                {
+                    name : 'encum',
+                    current : 5
+                },
+                {
+                    name : 'hp',
+                    current : 3
+                },
+                {
+                    name : 'weaponspecial',
+                    current : 'Blast 6, Cumbersome 3, Limited Ammo 6'
+                },
+                {
+                    name : 'weaponcondition',
+                    current : ''
+                },
+                {
+                    name : 'weapondice',
+                    current : ''
+                }
+            ], 
+        },
+        
     }

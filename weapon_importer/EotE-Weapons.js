@@ -3339,7 +3339,7 @@ var eoteweapon = {}
                 }
             ], 
         },
-        'Flechette Launcher (Anti-Infantry)': { 
+        'Flechette Launcher Anti-Infantry': { 
             attributes : [
                 {
                     name : 'weaponmake',
@@ -3394,7 +3394,7 @@ var eoteweapon = {}
                 }
             ], 
         },
-        'Flechette Launcher (Anti-Vehicle)': { 
+        'Flechette Launcher Anti-Vehicle': { 
             attributes : [
                 {
                     name : 'weaponmake',

@@ -404,10 +404,10 @@ input.sheet-gm:checked ~ div.sheet-tab-gm-dice {
     background-color:#f1f1f1;
 }
 
-.sheet-bg-blue td {background:#485a6d}
-
 .sheet-bg-blue label {color:#fff}
 
+.sheet-bg-blue td,
+.sheet-bg-blue td:hover, 
 .charsheet .sheet-sub-header,
 .charsheet .sheet-sub-header:hover{
     background:#485a6d;

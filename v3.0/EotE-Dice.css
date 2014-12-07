@@ -330,7 +330,7 @@ input.sheet-tab-ship-sheet::before {display:none}
 
 .charsheet input, 
 .charsheet textarea {
-    background:transparent;
+    background:#e3e3e3;
 }
 
 .charsheet input:focus, 
@@ -381,6 +381,12 @@ input.sheet-tab-ship-sheet::before {display:none}
 
 .charsheet table tr:hover td {
     background-color:#f1f1f1;
+}
+
+.charsheet .sheet-sub-header,
+.charsheet .sheet-sub-header:hover{
+    background:#485a6d;
+    color:#fff;
 }
 
 .charsheet table tr td.sheet-div-right {

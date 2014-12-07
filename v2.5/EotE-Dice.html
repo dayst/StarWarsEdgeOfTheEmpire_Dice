@@ -847,7 +847,7 @@
                                     <td><label>Type:</label></td>
                                     <td><input type="text" name="attr_obligationtype1"/></td>
                                     <td><label>Magnitude:</label></td>
-                                    <td class="sheet-div-right"><input type="number" name="attr_obligationmag1"/></td>
+                                    <td><input type="number" name="attr_obligationmag1"/></td>
                                     <td><label>Type:</label></td>
                                     <td><input type="text" name="attr_obligationtype2"/></td>
                                     <td><label>Magnitude:</label></td>
@@ -869,7 +869,7 @@
                                         <td><label>Type:</label></td>
                                         <td><input type="text" name="attr_obligationtype3"/></td>
                                         <td><label>Magnitude:</label></td>
-                                        <td class="sheet-div-right"><input type="number" name="attr_obligationmag3"/></td>
+                                        <td><input type="number" name="attr_obligationmag3"/></td>
                                         <td><label>Type:</label></td>
                                         <td><input type="text" name="attr_obligationtype4"/></td>
                                         <td><label>Magnitude:</label></td>
@@ -892,11 +892,15 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                <tr class="sheet-bg-blue">
+                                    <td colspan="4"><label style="text-align:right">Group's Contribution Rank:</label></td>
+                                    <td colspan="4"><input type="number" name="attr_contributionRank"/></td>
+                                </tr>
                                 <tr>
                                     <td><label>Type:</label></td>
                                     <td><input type="text" name="attr_dutytype1"/></td>
                                     <td><label>Magnitude:</label></td>
-                                    <td class="sheet-div-right"><input type="number" name="attr_dutymag1"/></td>
+                                    <td><input type="number" name="attr_dutymag1"/></td>
                                     <td><label>Type:</label></td>
                                     <td><input type="text" name="attr_dutytype2"/></td>
                                     <td><label>Magnitude:</label></td>
@@ -937,27 +941,27 @@
                         <table  cellspacing="0" cellpadding="0" border="0">
                             <thead>
                                 <tr>
-                                    <th colspan="8">Morality</th>
+                                    <th colspan="4">Morality</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td><label>Conflict:</label></td>
-                                    <td colspan ="2"><input type="number" name="attr_conflict"/></td>
+                                    <td><input type="number" name="attr_conflict"/></td>
                                     <td><label>Morality:</label></td>
                                     <td><input type="number" name="attr_morality"/></td>
                                 </tr>
                                 <tr>
                                     <td><label>Emotional Strength:</label></td>
-                                    <td colspan ="2" class="sheet-div-right"><input type="text" name="attr_emotestrengt"/></td>
+                                    <td><input type="text" name="attr_emotestrengt"/></td>
                                     <td><label>Emotional Weakness:</label></td>
                                     <td><input type="text" name="attr_emoteweakness"/></td>
                                 </tr>
 								<tr>
                                     <td><label>Description:</label></td>
-                                    <td colspan="2" class="sheet-div-right"><textarea rows="3" name="attr_emotestrengthdesc"></textarea></td>
+                                    <td><textarea rows="3" name="attr_emotestrengthdesc"></textarea></td>
                                     <td><label>Description:</label></td>
-                                    <td colspan="2"><textarea rows="3" name="attr_emoteweaknessdec"></textarea></td>
+                                    <td><textarea rows="3" name="attr_emoteweaknessdec"></textarea></td>
 								</tr>
                             </tbody>
                         </table>
@@ -3119,6 +3123,47 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                <tr>
+                                    <td valign="middle"><label>Lightsaber</label>
+                                        <div class="sheet-tips" style="display:none">
+                                            <div class="sheet-help-def sheet-help">
+                                                <div class="sheet-icon">
+                                                    <span class="sheet-icon-question">?</span>
+                                                </div>
+                                                <div class="sheet-help-content">
+                                                    <h5>Overview</h5>
+                                                    <ul>
+                                                        <li>-------------------</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div><!-- end tip -->
+                                        
+                                        <select name="attr_charLightsaber" style="float:right; width:50%">
+                                            <option value="@{brawn}">Brawn</option><!-- encum not working -->
+                                            <option value="@{agility}">Agility</option>
+                                            <option value="@{intellect}">Intellect</option>
+                                            <option value="@{cunning}">Cunning</option>
+                                            <option value="@{willpower}">Willpower</option>
+                                            <option value="@{presence}">Presence</option>
+                                        </select>
+                                        
+                                    </td>
+                                    <td><input name='attr_careerskillLightsaber' type="checkbox" value="1"></td>
+                                    
+                                    <td><input type="number" name="attr_rankLightsaber" max="9" min="0" value="0" /></td>
+                                    <td>
+                                        <input class="sheet-yd" type="hidden" name="attr_yLightsaber" value="(((@{charLightsaber} + @{rankLightsaber}) - abs(@{charLightsaber} - @{rankLightsaber})) / 2)" disabled="true" ><span></span>
+                                        <input class="sheet-gd" type="hidden" name="attr_gLightsaber" value="((((@{charLightsaber} + @{rankLightsaber}) + abs(@{charLightsaber} - @{rankLightsaber})) / 2) - @{yLightsaber})" disabled="true" ><span></span>
+                                    </td>
+                                    <td>
+                                        <div class="sheet-dice-icon"></div>
+                                        <div class="sheet-dice-input">
+                                            <input type="text" name="attr_diceLightsaber" />
+                                        </div>
+                                    </td>
+                                    <td><button type='roll' name='roll_Lightsaber' value='!eed characterID(@{character_id}) label(skill:Lightsaber) @{diceLightsaber} encum(@{encumbrancemax}|@{encumbrance}) skill(@{rankLightsaber}|@{charLightsaber}) @{dicePool} (gmdice)'></button></td>
+                                </tr>
                                 <tr>
                                     <td><label>Brawl (Br)</label>
                                         <div class="sheet-tips">

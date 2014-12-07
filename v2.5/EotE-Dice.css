@@ -351,7 +351,7 @@ input.sheet-gm:checked ~ div.sheet-tab-gm-dice {
 
 .charsheet input, 
 .charsheet textarea {
-    background:transparent;
+    background:#e3e3e3;
 }
 
 .charsheet input:focus, 
@@ -403,6 +403,10 @@ input.sheet-gm:checked ~ div.sheet-tab-gm-dice {
 .charsheet table tr:hover td {
     background-color:#f1f1f1;
 }
+
+.sheet-bg-blue td {background:#485a6d}
+
+.sheet-bg-blue label {color:#fff}
 
 .charsheet table tr td.sheet-div-right {
     border-right:1px solid #ccc    

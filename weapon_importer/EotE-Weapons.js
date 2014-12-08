@@ -3504,5 +3504,225 @@ var eoteweapon = {}
                 }
             ], 
         },
-        
+        //Under A Black Sun
+        'Bite': { 
+            attributes : [
+                {
+                    name : 'weaponmake',
+                    current : 'Bite'
+                }, 
+                {
+                    name : 'weapontype',
+                    current : 'Natural'
+                },
+                {
+                    name : 'weaponskill',
+                    current : 'skill(@{rankBrawl}|@{brawn})'
+                    /*
+                        skill(@{rankBrawl}|@{brawn})
+                        skill(@{rankGunnery}|@{agility})
+                        skill(@{rankMelee}|@{brawn})
+                        skill(@{rankLight}|@{agility})
+                        skill(@{rankHeavy}|@{agility})
+                    */
+                },
+                {
+                    name : 'damage',
+                    current : 3
+                },
+                {
+                    name : 'critical',
+                    current : 4
+                },
+                {
+                    name : 'weaponrange',
+                    current : 'Engaged' //Engaged Short Medium Long Extreme
+                },
+                {
+                    name : 'encum',
+                    current : ''
+                },
+                {
+                    name : 'hp',
+                    current : ''
+                },
+                {
+                    name : 'weaponspecial',
+                    current : ''
+                },
+                {
+                    name : 'weaponcondition',
+                    current : ''
+                },
+                {
+                    name : 'weapondice',
+                    current : ''
+                }
+            ], 
+        },
+        'Claws': { 
+            attributes : [
+                {
+                    name : 'weaponmake',
+                    current : 'Claws'
+                }, 
+                {
+                    name : 'weapontype',
+                    current : 'Natural'
+                },
+                {
+                    name : 'weaponskill',
+                    current : 'skill(@{rankBrawl}|@{brawn})'
+                    /*
+                        skill(@{rankBrawl}|@{brawn})
+                        skill(@{rankGunnery}|@{agility})
+                        skill(@{rankMelee}|@{brawn})
+                        skill(@{rankLight}|@{agility})
+                        skill(@{rankHeavy}|@{agility})
+                    */
+                },
+                {
+                    name : 'damage',
+                    current : 4
+                },
+                {
+                    name : 'critical',
+                    current : 3
+                },
+                {
+                    name : 'weaponrange',
+                    current : 'Engaged' //Engaged Short Medium Long Extreme
+                },
+                {
+                    name : 'encum',
+                    current : ''
+                },
+                {
+                    name : 'hp',
+                    current : ''
+                },
+                {
+                    name : 'weaponspecial',
+                    current : ''
+                },
+                {
+                    name : 'weaponcondition',
+                    current : ''
+                },
+                {
+                    name : 'weapondice',
+                    current : ''
+                }
+            ], 
+        },
+        'Switchblade': { 
+            attributes : [
+                {
+                    name : 'weaponmake',
+                    current : 'Switchblade'
+                }, 
+                {
+                    name : 'weapontype',
+                    current : 'Melee'
+                },
+                {
+                    name : 'weaponskill',
+                    current : 'skill(@{rankMelee}|@{brawn})'
+                    /*
+                        skill(@{rankBrawl}|@{brawn})
+                        skill(@{rankGunnery}|@{agility})
+                        skill(@{rankMelee}|@{brawn})
+                        skill(@{rankLight}|@{agility})
+                        skill(@{rankHeavy}|@{agility})
+                    */
+                },
+                {
+                    name : 'damage',
+                    current : 4
+                },
+                {
+                    name : 'critical',
+                    current : 3
+                },
+                {
+                    name : 'weaponrange',
+                    current : 'Engaged' //Engaged Short Medium Long Extreme
+                },
+                {
+                    name : 'encum',
+                    current : ''
+                },
+                {
+                    name : 'hp',
+                    current : ''
+                },
+                {
+                    name : 'weaponspecial',
+                    current : ''
+                },
+                {
+                    name : 'weaponcondition',
+                    current : ''
+                },
+                {
+                    name : 'weapondice',
+                    current : ''
+                }
+            ], 
+        },
+        'Poisoned Claws': { 
+            attributes : [
+                {
+                    name : 'weaponmake',
+                    current : 'Poisoned Claws'
+                }, 
+                {
+                    name : 'weapontype',
+                    current : 'Natural'
+                },
+                {
+                    name : 'weaponskill',
+                    current : 'skill(@{rankBrawl}|@{brawn})'
+                    /*
+                        skill(@{rankBrawl}|@{brawn})
+                        skill(@{rankGunnery}|@{agility})
+                        skill(@{rankMelee}|@{brawn})
+                        skill(@{rankLight}|@{agility})
+                        skill(@{rankHeavy}|@{agility})
+                    */
+                },
+                {
+                    name : 'damage',
+                    current : 5
+                },
+                {
+                    name : 'critical',
+                    current : 3
+                },
+                {
+                    name : 'weaponrange',
+                    current : 'Engaged' //Engaged Short Medium Long Extreme
+                },
+                {
+                    name : 'encum',
+                    current : ''
+                },
+                {
+                    name : 'hp',
+                    current : ''
+                },
+                {
+                    name : 'weaponspecial',
+                    current : 'Spend 2 Advantage to inflict poison with claws. Target must succeed at an Average (2 Difficulty) Resilience check or suffer 5 strain and lose his free maneuver for a number of rounds equal to the number of Threat generated during the Resilience check.'
+                },
+                {
+                    name : 'weaponcondition',
+                    current : ''
+                },
+                {
+                    name : 'weapondice',
+                    current : ''
+                }
+            ], 
+        },
     }

@@ -489,8 +489,8 @@
 				]},
 			],
 			weapons : [
-				{weapon : 'Blaster Pistol'}
-				/*{weapon : 'Claws'},*/
+				{weapon : 'Blaster Pistol'},
+				{weapon : 'Claws'},
 			]
 		},
 		'Forger' : {
@@ -1044,7 +1044,7 @@
 				]},
 			],
 			weapons : [
-				{weapon : 'Heavy Blaster Pistol '},
+				{weapon : 'Heavy Blaster Pistol'},
 				{weapon : 'Claws'},
 			],
 			equipment : [

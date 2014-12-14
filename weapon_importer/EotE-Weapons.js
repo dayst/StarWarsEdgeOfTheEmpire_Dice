@@ -257,6 +257,116 @@ var eoteweapon = {}
                 }
             ], 
         },
+        'Battered Stun Pistol' : { 
+            attributes : [
+                {
+                    name : 'weaponmake',
+                    current : 'Battered Stun Pistol'
+                }, 
+                {
+                    name : 'weapontype',
+                    current : 'Energy Weapon'
+                },
+                {
+                    name : 'weaponskill',
+                    current : 'skill(@{rankLight}|@{agility})'
+                    /*
+                        skill(@{rankBrawl}|@{brawn})
+                        skill(@{rankGunnery}|@{agility})
+                        skill(@{rankMelee}|@{brawn})
+                        skill(@{rankLight}|@{agility})
+                        skill(@{rankHeavy}|@{agility})
+                    */
+                },
+                {
+                    name : 'damage',
+                    current : 7
+                },
+                {
+                    name : 'critical',
+                    current : '-'
+                },
+                {
+                    name : 'weaponrange',
+                    current : 'Short' //Engaged Short Medium Long
+                },
+                {
+                    name : 'encum',
+                    current : 1
+                },
+                {
+                    name : 'hp',
+                    current : 1
+                },
+                {
+                    name : 'weaponspecial',
+                    current : 'Stun Damage'
+                },
+                {
+                    name : 'weaponcondition',
+                    current : ''
+                },
+                {
+                    name : 'weapondice',
+                    current : ''
+                }
+            ], 
+        },
+        'Stun Blaster' : { 
+            attributes : [
+                {
+                    name : 'weaponmake',
+                    current : 'Stun Blaster'
+                }, 
+                {
+                    name : 'weapontype',
+                    current : 'Energy Weapon'
+                },
+                {
+                    name : 'weaponskill',
+                    current : 'skill(@{rankLight}|@{agility})'
+                    /*
+                        skill(@{rankBrawl}|@{brawn})
+                        skill(@{rankGunnery}|@{agility})
+                        skill(@{rankMelee}|@{brawn})
+                        skill(@{rankLight}|@{agility})
+                        skill(@{rankHeavy}|@{agility})
+                    */
+                },
+                {
+                    name : 'damage',
+                    current : 6
+                },
+                {
+                    name : 'critical',
+                    current : '-'
+                },
+                {
+                    name : 'weaponrange',
+                    current : 'Short' //Engaged Short Medium Long
+                },
+                {
+                    name : 'encum',
+                    current : 1
+                },
+                {
+                    name : 'hp',
+                    current : 1
+                },
+                {
+                    name : 'weaponspecial',
+                    current : 'Stun Damage'
+                },
+                {
+                    name : 'weaponcondition',
+                    current : ''
+                },
+                {
+                    name : 'weapondice',
+                    current : ''
+                }
+            ], 
+        },
         'Light Blaster Pistol' : { 
             attributes : [
                 {

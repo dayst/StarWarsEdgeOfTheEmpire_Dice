@@ -343,6 +343,7 @@
 			]
 		},
 		////////////////////////////
+		// Edge of the Empire
 		'Aqualish Thug' : {
 			overview : [
 				{name : 'name', current : 'Aqualish Thug [Minion]'},
@@ -648,6 +649,209 @@
 				{name : 'armor', current: 'Padded Armor (+2 Soak)'}
 			]
 		},
+		'Pirate Captain' : {
+			overview : [
+				{name : 'name', current : 'Pirate Captain [Nemesis]'},
+				{name : 'playername', current : 'EotE (p394)'}, //Page Number
+			],
+			attributes : [
+				{name : 'soak', current : 5},
+				{name : 'wounds', current : 20, max : 20},
+				{name : 'strain', current : 12, max : 12},
+				{name : 'rangeddefense', current : 1},
+				{name : 'meleedefense', current : 1},
+				{name : 'encumbrance', current : 0, max : 0},
+				{name : 'forcerating', current : 0},
+				{name : 'forcecommitted', current : 0},
+			],
+			characteristics : [
+				{name : 'brawn', current : 4},
+				{name : 'agility', current : 4},
+				{name : 'intellect', current : 2},
+				{name : 'cunning', current : 3},
+				{name : 'willpower', current : 2},
+				{name : 'presence', current : 3}
+			],
+			skills : [
+				{name : 'rankCoercion', current : 3},
+				{name : 'rankCool', current : 3},
+				{name : 'rankCoordination', current : 2},
+				{name : 'rankDeception', current : 3},
+				{name : 'rankLeadership', current : 2},
+				{name : 'rankResilience', current : 2},
+				{name : 'rankSkulduggery', current : 3},
+				{name : 'rankGunnery', current : 2},
+				{name : 'rankMelee', current : 4},
+				{name : 'rankHeavy', current : 3},
+				
+			],
+			abilities : [
+				{ability : [
+					{name : 'talentname', current: 'Pirate Leader'},
+					{name : 'talentrank', current: ''},
+					{name : 'talentsummary', current: 'May spend a maneuver giving orders to other pirate allies in medium range, granting them 1 boost die on their next check.'}
+				]}
+			],
+			talents : [
+				{talent : [
+					{name : 'talentname', current: 'Adversary'},
+					{name : 'talentrank', current: '2'},
+					{name : 'talentsummary', current: 'Upgrade difficulty of all combat checks against this target twice.'}
+				]},
+				{talent : [
+					{name : 'talentname', current: 'Feral Strength'},
+					{name : 'talentrank', current: '2'},
+					{name : 'talentsummary', current: '+2 damage on all Brawl and Melee attacks.'}
+				]},
+				{talent : [
+					{name : 'talentname', current: 'Knockdown'},
+					{name : 'talentrank', current: ''},
+					{name : 'talentsummary', current: 'May spend Triumph to knock target prone with successful melee attack.'}
+				]},
+			],
+			weapons : [
+				{weapon : 'Heavy Blaster Rifle'},
+				{weapon : 'Vibro-Ax'},
+			],
+			equipment : [
+				{name : 'armor', current: 'Armored clothing: +1 soak, +1 defense'},
+				{name : 'personalgear', current: ''},
+				{name : 'assets', current: ''},
+			]
+		},
+		'Slaver' : {
+			overview : [
+				{name : 'name', current : 'Slaver [Rival]'},
+				{name : 'playername', current : 'EotE (p394)'}, //Page Number
+			],
+			attributes : [
+				{name : 'soak', current : 3},
+				{name : 'wounds', current : 15, max : 15},
+				{name : 'strain', current : 0, max : 0},
+				{name : 'rangeddefense', current : 0},
+				{name : 'meleedefense', current : 0},
+				{name : 'encumbrance', current : 0, max : 0},
+				{name : 'forcerating', current : 0},
+				{name : 'forcecommitted', current : 0},
+			],
+			characteristics : [
+				{name : 'brawn', current : 3},
+				{name : 'agility', current : 3},
+				{name : 'intellect', current : 1},
+				{name : 'cunning', current : 3},
+				{name : 'willpower', current : 2},
+				{name : 'presence', current : 1}
+			],
+			skills : [
+				{name : 'rankCoercion', current : 2},
+				{name : 'rankVigilance', current : 2},
+				{name : 'rankMelee', current : 2},
+				{name : 'rankLight', current : 2},
+			],
+			weapons : [
+				{weapon : 'Battered Stun Pistol'},
+				{weapon : 'Bola Net'},
+				{weapon : 'Truncheon'},
+			],
+			equipment : [
+				{name : 'armor', current: ''},
+				{name : 'personalgear', current: ''},
+				{name : 'assets', current: ''},
+			]
+		},
+		'Shipjacker' : {
+			overview : [
+				{name : 'name', current : 'Shipjacker [Rival]'},
+				{name : 'playername', current : 'EotE (p395)'}, //Page Number
+			],
+			attributes : [
+				{name : 'soak', current : 2},
+				{name : 'wounds', current : 14, max : 14},
+				{name : 'strain', current : 0, max : 0},
+				{name : 'rangeddefense', current : 0},
+				{name : 'meleedefense', current : 0},
+				{name : 'encumbrance', current : 0, max : 0},
+				{name : 'forcerating', current : 0},
+				{name : 'forcecommitted', current : 0},
+			],
+			characteristics : [
+				{name : 'brawn', current : 2},
+				{name : 'agility', current : 3},
+				{name : 'intellect', current : 2},
+				{name : 'cunning', current : 3},
+				{name : 'willpower', current : 2},
+				{name : 'presence', current : 3}
+			],
+			skills : [
+				{name : 'rankComputers', current : 1},
+				{name : 'rankDeception', current : 2},
+				{name : 'rankSpace', current : 2},
+				{name : 'rankSkulduggery', current : 2},
+				{name : 'rankStealth', current : 2},
+				{name : 'rankVigilance', current : 1},
+			],
+			talents : [
+				{talent : [
+					{name : 'talentname', current: 'Adversary'},
+					{name : 'talentrank', current: '1'},
+					{name : 'talentsummary', current: 'Upgrade difficulty of all combat checks against this target once.'}
+				]},
+			],
+			weapons : [
+				{weapon : 'Heavy Blaster Pistol'},
+				{weapon : 'Stun Grenade'},
+				{weapon : 'Stun Grenade'},
+			],
+			equipment : [
+				{name : 'armor', current: ''},
+				{name : 'personalgear', current: 'Electronic lock breaker'},
+				{name : 'assets', current: ''},
+			]
+		},
+		'Slicer' : {
+			overview : [
+				{name : 'name', current : 'Slicer [Rival]'},
+				{name : 'playername', current : 'EotE (p395)'}, //Page Number
+			],
+			attributes : [
+				{name : 'soak', current : 2},
+				{name : 'wounds', current : 12, max : 12},
+				{name : 'strain', current : 0, max : 0},
+				{name : 'rangeddefense', current : 0},
+				{name : 'meleedefense', current : 0},
+				{name : 'encumbrance', current : 0, max : 0},
+				{name : 'forcerating', current : 0},
+				{name : 'forcecommitted', current : 0},
+			],
+			characteristics : [
+				{name : 'brawn', current : 2},
+				{name : 'agility', current : 2},
+				{name : 'intellect', current : 4},
+				{name : 'cunning', current : 3},
+				{name : 'willpower', current : 2},
+				{name : 'presence', current : 1}
+			],
+			skills : [
+				{name : 'rankComputers', current : 2},
+				{name : 'rankCool', current : 2},
+				{name : 'rankSkulduggery', current : 1}
+			],
+			talents : [
+				{talent : [
+					{name : 'talentname', current: 'By Pass Security'},
+					{name : 'talentrank', current: '0'},
+					{name : 'talentsummary', current: 'Remove 1 Setback die from any Computer or Skulduggery check to bypass security.'}
+				]},
+			],
+			weapons : [
+				{weapon : 'Stun Blaster'},
+			],
+			equipment : [
+				{name : 'armor', current: ''},
+				{name : 'personalgear', current: 'Slicer gear'},
+				{name : 'assets', current: ''},
+			]
+		},
 		'Smuggler Baron' : {
 			overview : [
 				{name : 'name', current : 'Smuggler Baron [Nemesis]'},
@@ -711,12 +915,308 @@
 				{name : 'assets', current: 'YT-2400 Freighter - EotE (p265)'},
 			]
 		},
+		'Smuggler' : {
+			overview : [
+				{name : 'name', current : 'Smuggler [Rival]'},
+				{name : 'playername', current : 'EotE (p396)'}, //Page Number
+			],
+			attributes : [
+				{name : 'soak', current : 2},
+				{name : 'wounds', current : 12, max : 12},
+				{name : 'strain', current : 0, max : 0},
+				{name : 'rangeddefense', current : 0},
+				{name : 'meleedefense', current : 0},
+				{name : 'encumbrance', current : 0, max : 0},
+				{name : 'forcerating', current : 0},
+				{name : 'forcecommitted', current : 0},
+			],
+			characteristics : [
+				{name : 'brawn', current : 2},
+				{name : 'agility', current : 3},
+				{name : 'intellect', current : 2},
+				{name : 'cunning', current : 3},
+				{name : 'willpower', current : 2},
+				{name : 'presence', current : 3}
+			],
+			skills : [
+				{name : 'rankCharm', current : 2},
+				{name : 'rankCool', current : 1},
+				{name : 'rankSpace', current : 2},
+				{name : 'rankSkulduggery', current : 2},
+				{name : 'rankStreetwise', current : 2},
+				{name : 'rankVigilance', current : 1},
+				{name : 'rankLight', current : 2}
+			],
+			talents : [
+				{talent : [
+					{name : 'talentname', current: 'Adversary'},
+					{name : 'talentrank', current: '1'},
+					{name : 'talentsummary', current: 'Upgrade difficulty of all combat checks against this target once'}
+				]},
+				{talent : [
+					{name : 'talentname', current: 'Skill Jockey'},
+					{name : 'talentrank', current: '2'},
+					{name : 'talentsummary', current: 'Remove upt to 2 Setback from any Piloting check'}
+				]},
+			],
+			weapons : [
+				{weapon : 'Blaster Pistol'}
+			],
+			equipment : [
+				{name : 'armor', current: ''},
+				{name : 'personalgear', current: ''},
+				{name : 'assets', current: ''},
+			]
+		},
+		'Street Tough' : {
+			overview : [
+				{name : 'name', current : 'Street Tough [Minion]'},
+				{name : 'playername', current : 'EotE (p396)'}, //Page Number
+			],
+			attributes : [
+				{name : 'soak', current : 4},
+				{name : 'wounds', current : 5, max : 5},
+				{name : 'strain', current : 0, max : 0},
+				{name : 'rangeddefense', current : 0},
+				{name : 'meleedefense', current : 0},
+				{name : 'encumbrance', current : 0, max : 0},
+				{name : 'forcerating', current : 0},
+				{name : 'forcecommitted', current : 0},
+			],
+			characteristics : [
+				{name : 'brawn', current : 3},
+				{name : 'agility', current : 2},
+				{name : 'intellect', current : 2},
+				{name : 'cunning', current : 2},
+				{name : 'willpower', current : 1},
+				{name : 'presence', current : 1}
+			],
+			abilities : [
+				{ability : [
+					{name : 'talentname', current: 'Minion - Working as group'},
+					{name : 'talentrank', current: ''},
+					{name : 'talentsummary', current: 'Gain 1 rank of skill per minion in group. (Skills: Melee, Ranged Heavy, Ranged Light, Skulduggery)'}
+				]}
+			],
+			weapons : [
+				{weapon : 'Blaster Pistol'},
+				{weapon : 'Slugthrower Rifle'},
+				{weapon : 'Truncheon'},
+			],
+			equipment : [
+				{name : 'armor', current: 'Heavy Clothing: +1 soak'},
+				{name : 'personalgear', current: ''},
+				{name : 'assets', current: ''},
+			]
+		},
+		'Sullustan Pilot-For-Hire' : {
+			overview : [
+				{name : 'name', current : 'Sullustan Pilot-For-Hire [Rival]'},
+				{name : 'playername', current : 'EotE (p396)'}, //Page Number
+			],
+			attributes : [
+				{name : 'soak', current : 2},
+				{name : 'wounds', current : 11, max : 11},
+				{name : 'strain', current : 0, max : 0},
+				{name : 'rangeddefense', current : 0},
+				{name : 'meleedefense', current : 0},
+				{name : 'encumbrance', current : 0, max : 0},
+				{name : 'forcerating', current : 0},
+				{name : 'forcecommitted', current : 0},
+			],
+			characteristics : [
+				{name : 'brawn', current : 1},
+				{name : 'agility', current : 2},
+				{name : 'intellect', current : 3},
+				{name : 'cunning', current : 3},
+				{name : 'willpower', current : 2},
+				{name : 'presence', current : 2}
+			],
+			skills : [
+				{name : 'rankAstrogation', current : 4},
+				{name : 'rankCool', current : 1},
+				{name : 'rankPerception', current : 5},
+				{name : 'rankPlanetary', current : 3},
+				{name : 'rankSpace', current : 3},
+				{name : 'rankSurvival', current : 1},
+				{name : 'rankGunnery', current : 2},
+				{name : 'rankLight', current : 1},
+			],
+			weapons : [
+				{weapon : 'Blaster Pistol'},
+				{weapon : 'Vibroknife'},
+			],
+		},
+		'Swoop Ganger' : {
+			overview : [
+				{name : 'name', current : 'Swoop Ganger [Rival]'},
+				{name : 'playername', current : 'EotE (p397)'}, //Page Number
+			],
+			attributes : [
+				{name : 'soak', current : 2},
+				{name : 'wounds', current : 12, max : 12},
+				{name : 'strain', current : 0, max : 0},
+				{name : 'rangeddefense', current : 0},
+				{name : 'meleedefense', current : 0},
+				{name : 'encumbrance', current : 0, max : 0},
+				{name : 'forcerating', current : 0},
+				{name : 'forcecommitted', current : 0},
+			],
+			characteristics : [
+				{name : 'brawn', current : 2},
+				{name : 'agility', current : 3},
+				{name : 'intellect', current : 2},
+				{name : 'cunning', current : 3},
+				{name : 'willpower', current : 2},
+				{name : 'presence', current : 2}
+			],
+			skills : [
+				{name : 'rankPlanetary', current : 1},
+				{name : 'rankStreetwise', current : 1},
+				{name : 'rankBrawl', current : 1},
+				{name : 'rankLight', current : 1},
+			],
+			weapons : [
+				{weapon : 'Light Blaster Pistol'},
+			],
+			equipment : [
+				{name : 'armor', current: ''},
+				{name : 'personalgear', current: ''},
+				{name : 'assets', current: 'Modified swoop bikes'},
+			]
+		},
+		'Twi\'Lek Black Marketeer' : {
+			overview : [
+				{name : 'name', current : 'Twi\'Lek Black Marketeer [Rival]'},
+				{name : 'playername', current : 'EotE (p397)'}, //Page Number
+			],
+			attributes : [
+				{name : 'soak', current : 2},
+				{name : 'wounds', current : 12, max : 12},
+				{name : 'strain', current : 0, max : 0},
+				{name : 'rangeddefense', current : 0},
+				{name : 'meleedefense', current : 0},
+				{name : 'encumbrance', current : 0, max : 0},
+				{name : 'forcerating', current : 0},
+				{name : 'forcecommitted', current : 0},
+			],
+			characteristics : [
+				{name : 'brawn', current : 2},
+				{name : 'agility', current : 2},
+				{name : 'intellect', current : 3},
+				{name : 'cunning', current : 3},
+				{name : 'willpower', current : 2},
+				{name : 'presence', current : 3}
+			],
+			skills : [
+				{name : 'rankNegotiation', current : 2},
+				{name : 'rankSkulduggery', current : 2},
+				{name : 'rankStreetwise', current : 2},
+				{name : 'rankVigilance', current : 2},
+				{name : 'rankLight', current : 1},
+				{name : 'rankUnderworld', current : 2},
+			],
+			talents : [
+				{talent : [
+					{name : 'talentname', current: 'Adversary'},
+					{name : 'talentrank', current: '1'},
+					{name : 'talentsummary', current: 'Upgrade difficulty of all combat checks against this target once'}
+				]},
+				{talent : [
+					{name : 'talentname', current: 'Black Market Contact'},
+					{name : 'talentrank', current: '2'},
+					{name : 'talentsummary', current: 'Decrease rarity of sought item by two degrees when looking on the black market.'}
+				]},
+			],
+			weapons : [
+				{weapon : 'Blaster Pistol'},
+				{weapon : 'Thermal Detonator'},
+				{weapon : 'Shock Gloves'},
+			]
+		},
+		'Comm Operator' : {
+			overview : [
+				{name : 'name', current : 'Comm Operator [Rival]'},
+				{name : 'playername', current : 'EotE (p397)'}, //Page Number
+			],
+			attributes : [
+				{name : 'soak', current : 2},
+				{name : 'wounds', current : 12, max : 12},
+				{name : 'strain', current : 0, max : 0},
+				{name : 'rangeddefense', current : 0},
+				{name : 'meleedefense', current : 0},
+				{name : 'encumbrance', current : 0, max : 0},
+				{name : 'forcerating', current : 0},
+				{name : 'forcecommitted', current : 0},
+			],
+			characteristics : [
+				{name : 'brawn', current : 2},
+				{name : 'agility', current : 2},
+				{name : 'intellect', current : 2},
+				{name : 'cunning', current : 2},
+				{name : 'willpower', current : 2},
+				{name : 'presence', current : 4}
+			],
+			skills : [
+				{name : 'rankCharm', current : 2},
+				{name : 'rankCoercion', current : 1},
+				{name : 'rankCool', current : 1},
+				{name : 'rankOuter', current : 3},
+			],
+			weapons : [
+				{weapon : 'Light Blaster Pistol'},
+			],
+			equipment : [
+				{name : 'armor', current: ''},
+				{name : 'personalgear', current: 'Encrypted comlink'},
+				{name : 'assets', current: ''},
+			]
+		},
+		'Customs Inspector' : {
+			overview : [
+				{name : 'name', current : 'Customs Inspector [Rival]'},
+				{name : 'playername', current : 'EotE (p397)'}, //Page Number
+			],
+			attributes : [
+				{name : 'soak', current : 2},
+				{name : 'wounds', current : 12, max : 12},
+				{name : 'strain', current : 0, max : 0},
+				{name : 'rangeddefense', current : 0},
+				{name : 'meleedefense', current : 0},
+				{name : 'encumbrance', current : 0, max : 0},
+				{name : 'forcerating', current : 0},
+				{name : 'forcecommitted', current : 0},
+			],
+			characteristics : [
+				{name : 'brawn', current : 2},
+				{name : 'agility', current : 2},
+				{name : 'intellect', current : 3},
+				{name : 'cunning', current : 2},
+				{name : 'willpower', current : 3},
+				{name : 'presence', current : 3}
+			],
+			skills : [
+				{name : 'rankAstrogation', current : 1},
+				{name : 'rankPerception', current : 3},
+				{name : 'rankVigilance', current : 2},
+			],
+			weapons : [
+				{weapon : 'Light Blaster Pistol'},
+			],
+			equipment : [
+				{name : 'armor', current: ''},
+				{name : 'personalgear', current: 'Hand scanner'},
+				{name : 'assets', current: ''},
+			]
+		},
+		
+		
 		
 		//Under a Black Sun
 		'Varannis, Black Sun Underboss' : {
 			overview : [
 				{name : 'name', current : 'Varannis, Black Sun Underboss [Rival]'},
-				{name : 'playername', current : 'UaBS (pXXX)'}, //Page Number
+				{name : 'playername', current : 'UaBS (p28)'}, //Page Number
 			],
 			attributes : [
 				{name : 'soak', current : 3},
@@ -772,7 +1272,7 @@
 		'Black Sun Thug' : {
 			overview : [
 				{name : 'name', current : 'Black Sun Thug [Minion]'},
-				{name : 'playername', current : 'UaBS (pXXX)'}, //Page Number
+				{name : 'playername', current : 'UaBS (p22)'}, //Page Number
 			],
 			attributes : [
 				{name : 'soak', current : 3},
@@ -806,7 +1306,7 @@
 		'Black Sun Lackey' : {
 			overview : [
 				{name : 'name', current : 'Black Sun Lackey [Minion]'},
-				{name : 'playername', current : 'UaBS(pXXX)'}, //Page Number
+				{name : 'playername', current : 'UaBS(p28)'}, //Page Number
 			],
 			attributes : [
 				{name : 'soak', current : 4},
@@ -841,7 +1341,7 @@
 		'Club Hired Guard' : {
 			overview : [
 				{name : 'name', current : 'Club Hired Guard [Minion]'},
-				{name : 'playername', current : 'UaBS(pXXX)'}, //Page Number
+				{name : 'playername', current : 'UaBS(p24)'}, //Page Number
 			],
 			attributes : [
 				{name : 'soak', current : 4},
@@ -881,7 +1381,7 @@
 		'Coruscant Underworld Police' : {
 			overview : [
 				{name : 'name', current : 'Coruscant Underworld Police [Rival]'},
-				{name : 'playername', current : 'UaBS (pXXX)'}, //Page Number
+				{name : 'playername', current : 'UaBS (p22)'}, //Page Number
 			],
 			attributes : [
 				{name : 'soak', current : 4},
@@ -923,7 +1423,7 @@
 		'Duracrete Slug' : {
 			overview : [
 				{name : 'name', current : 'Duracrete Slug [Rival]'},
-				{name : 'playername', current : 'UaBS (pXXX)'}, //Page Number
+				{name : 'playername', current : 'UaBS (p22)'}, //Page Number
 			],
 			attributes : [
 				{name : 'soak', current : 6},
@@ -1000,7 +1500,7 @@
 		'Kaa\'to Leeachos, Kadas\'sa\'nikto Bounty Hunter' : {
 			overview : [
 				{name : 'name', current : 'Kaa\'to Leeachos, Kadas\'sa\'nikto Bounty Hunter [Nemesis]'},
-				{name : 'playername', current : 'UaBS (pXXX)'}, //Page Number
+				{name : 'playername', current : 'UaBS (p38)'}, //Page Number
 			],
 			attributes : [
 				{name : 'soak', current : 6},
@@ -1056,7 +1556,7 @@
 		'Lar\'omx Clan-Scorned' : {
 			overview : [
 				{name : 'name', current : 'Lar\'omx Clan-Scorned [Rival]'},
-				{name : 'playername', current : 'UaBS (pXXX)'}, //Page Number
+				{name : 'playername', current : 'UaBS (p28)'}, //Page Number
 			],
 			attributes : [
 				{name : 'soak', current : 6},
@@ -1115,7 +1615,7 @@
 		'Police Droid' : {
 			overview : [
 				{name : 'name', current : 'Police Droid [Minion]'},
-				{name : 'playername', current : 'UaBS(pXXX)'}, //Page Number
+				{name : 'playername', current : 'UaBS(p22)'}, //Page Number
 			],
 			attributes : [
 				{name : 'soak', current : 3},
@@ -1154,7 +1654,7 @@
 		'Speng' : {
 			overview : [
 				{name : 'name', current : 'Speng [Rival]'},
-				{name : 'playername', current : 'UaBS (pXXX)'}, //Page Number
+				{name : 'playername', current : 'UaBS (p24)'}, //Page Number
 			],
 			attributes : [
 				{name : 'soak', current : 2},
@@ -1208,7 +1708,7 @@
 		'Zelcomm Enforcer' : {
 			overview : [
 				{name : 'name', current : 'Zelcomm Enforcer [Minion]'},
-				{name : 'playername', current : 'UaBS(pXXX)'}, //Page Number
+				{name : 'playername', current : 'UaBS(p31)'}, //Page Number
 			],
 			attributes : [
 				{name : 'soak', current : 4},
@@ -1245,6 +1745,6 @@
 			]
 		},
 		
-		
+		//
 	}
 	
